@@ -20,7 +20,7 @@ jobs:
         with:
           java-version: 1.8
       - name: UI tests
-        run: bash ./gradlew test --stacktrace
+        run: bash chmod +x ./gradlew test --stacktrace
 
   apk:
     name: Generate APK
