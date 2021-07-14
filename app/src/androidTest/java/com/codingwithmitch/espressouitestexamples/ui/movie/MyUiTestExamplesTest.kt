@@ -30,7 +30,7 @@ class MyUiTestExamplesTest {
     @Test
     fun test_isActivityInView(){
         onView(withId(R.id.main)).check(matches(isDisplayed()))
-        Log.d("MyTest", "test_isActivityInView")
+        Log.d("MyTest", "test isActivityInView")
     }
 
     @After
