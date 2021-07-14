@@ -24,17 +24,17 @@ class MyUiTestExamplesTest {
 
     @Before
     fun setUp() {
-        Log.d("Test", "in BEFORE: set up")
+        Log.d("MyTest", "in BEFORE: set up")
     }
 
     @Test
     fun test_isActivityInView(){
         onView(withId(R.id.main)).check(matches(isDisplayed()))
-        Log.d("Test", "test_isActivityInView")
+        Log.d("MyTest", "test_isActivityInView")
     }
 
     @After
     fun tearDown() {
-        Log.d("Test", "in AFTER: tear down")
+        Log.d("MyTest", "in AFTER: tear down")
     }
 }
