@@ -27,7 +27,7 @@ class MyUiTestExamplesTest {
 
     @Before
     fun setUp() {
-        Log.d("MyTest", "in BEFORE")
+        Log.d("MyTest", "in BEFORE: set up")
     }
 
     @Test
@@ -38,6 +38,6 @@ class MyUiTestExamplesTest {
 
     @After
     fun tearDown() {
-        Log.d("MyTest", "in AFTER")
+        Log.d("MyTest", "in AFTER: tear down")
     }
 }
