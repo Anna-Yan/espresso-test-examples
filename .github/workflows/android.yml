@@ -19,6 +19,7 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
+          gradle-version: 4.2.2
           
       - name: UI tests
         run: ./gradlew lint test
