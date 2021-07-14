@@ -1,8 +1,6 @@
 package com.codingwithmitch.espressouitestexamples.ui.movie
 
-import android.content.Context
 import android.util.Log
-import android.widget.Toast
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
@@ -16,7 +14,6 @@ import org.junit.Assert.*
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import kotlin.coroutines.coroutineContext
 
 @RunWith(AndroidJUnit4ClassRunner::class)
 class MyUiTestExamplesTest {
@@ -27,7 +24,7 @@ class MyUiTestExamplesTest {
 
     @Before
     fun setUp() {
-        Log.d("MyTest", "in BEFORE: set up")
+        Log.d("Test", "in BEFORE: set up")
     }
 
     @Test
@@ -38,6 +35,6 @@ class MyUiTestExamplesTest {
 
     @After
     fun tearDown() {
-        Log.d("MyTest", "in AFTER: tear down")
+        Log.d("Test", "in AFTER: tear down")
     }
 }
