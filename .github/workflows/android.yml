@@ -22,7 +22,7 @@ jobs:
           gradle-version: 4.2.2
           
       - name: UI tests
-        run: gradle assembleAndroidTest
+        run: gradle tasks
         
   apk:
     name: Generate APK
